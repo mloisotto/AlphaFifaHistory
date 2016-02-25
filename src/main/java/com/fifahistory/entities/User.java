@@ -1,6 +1,5 @@
 package com.fifahistory.entities;
 
-import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -16,19 +15,14 @@ public class User implements Serializable {
 
     private long id;
 
-    @NotEmpty
     private String nickname;
 
-    @NotEmpty
     private String username;
 
-    @NotEmpty
     private String password;
 
-    @NotEmpty
     private int gamesWon;
 
-    @NotEmpty
     private int gamesLost;
 
 

@@ -14,14 +14,14 @@ import java.util.List;
 @Controller
 public class HomeController {
 
-    @RequestMapping("/home")
+    @RequestMapping("/index")
     public String init(){
 
-        return "home";
+        return "static/views/index";
     }
 
 
-    @RequestMapping("/listAll")
+    @RequestMapping("/user/listAll")
     public @ResponseBody
     List<User> listAll(){
 
