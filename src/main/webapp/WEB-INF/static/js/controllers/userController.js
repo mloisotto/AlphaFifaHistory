@@ -8,7 +8,7 @@ fifaHistoryApp.controller('userController', ['$scope','$http', function($scope,$
     $scope.users = [];
 
 
-    $http.get('/user/listAll').then(function(response){
+    $http.get('user/listAll').then(function(response){
         $scope.users = response.data;
     });
 }]);

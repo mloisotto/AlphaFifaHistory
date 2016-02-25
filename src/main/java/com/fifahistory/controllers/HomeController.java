@@ -17,11 +17,11 @@ public class HomeController {
     @RequestMapping("/index")
     public String init(){
 
-        return "static/views/index";
+        return "index";
     }
 
 
-    @RequestMapping("/user/listAll")
+    @RequestMapping("user/listAll")
     public @ResponseBody
     List<User> listAll(){
 
