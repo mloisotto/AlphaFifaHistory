@@ -9,6 +9,7 @@ import java.io.Serializable;
  */
 
 @Entity
+@Table(name = "user")
 public class User implements Serializable {
 
     private static final long serialVersionUID = 6787411012408357010L;
@@ -32,6 +33,7 @@ public class User implements Serializable {
     public long getId() {
         return id;
     }
+
 
     public void setId(long id) {
         throw new UnsupportedOperationException("Not supported!");
