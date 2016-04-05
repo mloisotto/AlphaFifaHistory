@@ -19,8 +19,8 @@
 
 
     <bean id="jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="static/views/"/>
-        <property name="suffix" value=".html"/>
+        <property name="prefix" value="/WEB-INF/pages/views/"/>
+        <property name="suffix" value=".jsp"/>
     </bean>
 
 

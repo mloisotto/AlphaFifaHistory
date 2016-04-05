@@ -15,7 +15,7 @@ public class Match implements Serializable{
 
     private Result result;
 
-    private List<Team> teams;
+    private List<User> users;
 
     private Date matchDate;
 
@@ -40,12 +40,12 @@ public class Match implements Serializable{
         this.result = result;
     }
 
-    public List<Team> getTeams() {
-        return teams;
+    public List<User> getTeams() {
+        return users;
     }
 
-    public void setTeams(List<Team> teams) {
-        this.teams = teams;
+    public void setTeams(List<User> teams) {
+        this.users = teams;
     }
 
     public Date getMatchDate() {
