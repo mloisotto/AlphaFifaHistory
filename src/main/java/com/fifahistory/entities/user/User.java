@@ -1,4 +1,4 @@
-package com.fifahistory.entities;
+package com.fifahistory.entities.user;
 
 
 import javax.persistence.*;
